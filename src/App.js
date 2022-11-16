@@ -79,3 +79,12 @@ const App = () => {
 };
 
 export default App;
+
+// immer 사용법
+// 예시
+// import produce from 'immer';
+// import { DRAFTABLE } from 'immer/dist/internal';
+// const nextState = produce(originalState, draft => {
+//   // 바꾸고 싶은 값 바꾸기
+//   DRAFTABLE.somewhere.deep.inside = 5;
+// })
