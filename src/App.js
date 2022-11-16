@@ -1,3 +1,4 @@
+// immer를 사용하지 않고 불변성 유지
 import React, {useRef, useCallback, useState} from 'react';
 
 const App = () => {
